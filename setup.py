@@ -7,6 +7,6 @@ setup(name='toolbox',
       package_dir = {
             'toolbox': 'toolbox',
             'toolbox.pipelining': 'toolbox/pipelining'},
-      packages=['toolbox', 'toolbox.pipelining'].
+      packages=['toolbox', 'toolbox.pipelining'],
       install_requires=['numpy', 'pandas']
 )
