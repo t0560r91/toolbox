@@ -4,6 +4,9 @@ setup(name='toolbox',
       version='0.0.1',
       author='Seho Kim',
       url='https://github.com/sehokim88/customtools',
-      packages=find_packages(),
+      package_dir = {
+            'toolbox': 'toolbox',
+            'toolbox.pipelining': 'toolbox/pipelining'},
+      packages=['toolbox', 'toolbox.pipelining'].
       install_requires=['numpy', 'pandas']
 )
